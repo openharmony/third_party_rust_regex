@@ -157,7 +157,7 @@ The following features are available:
 #![deny(missing_docs)]
 #![warn(missing_debug_implementations)]
 #![forbid(unsafe_code)]
-
+#![allow(clippy::derive_ord_xor_partial_ord)]
 pub use crate::error::{Error, Result};
 pub use crate::parser::{Parser, ParserBuilder};
 pub use crate::unicode::UnicodeWordError;

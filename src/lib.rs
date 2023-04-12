@@ -611,7 +611,7 @@ another matching engine with fixed memory requirements.
 #![deny(missing_docs)]
 #![cfg_attr(feature = "pattern", feature(pattern))]
 #![warn(missing_debug_implementations)]
-
+#![allow(clippy::if_same_then_else)]
 #[cfg(not(feature = "std"))]
 compile_error!("`std` feature is currently required to build this crate");
 
