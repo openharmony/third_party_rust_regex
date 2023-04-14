@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "regex",
+    "License": "Apache License 2.0, MIT",
+    "License File": "LICENSE-APACHE|LICENSE-MIT",
+    "Version Number": "1.7.1",
+    "Owner": "fangting12@huawei.com",
+    "Upstream URL": "https://github.com/rust-lang/regex",
+    "Description": "A Rust library that provides support for regular expressions."
+  }
+]
