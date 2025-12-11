@@ -46,4 +46,7 @@ ohos_cargo_crate("lib") {
         "unicode-script",
         "unicode-segment",
     ]
+    module_output_extension = ".rlib"
+    part_name = "rust_regex"
+    subsystem_name = "thirdparty"
 }
